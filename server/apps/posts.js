@@ -161,7 +161,7 @@ postRouter.delete("/:id", async (req, res) => {
   ]);
 
   return res.json({
-    message: `Comment ${postId} has been deleted.`,
+    message: `Post ${postId} has been deleted.`,
   });
 });
 
